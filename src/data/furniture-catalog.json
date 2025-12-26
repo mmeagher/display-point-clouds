@@ -1,0 +1,51 @@
+{
+  "pieces": [
+    {
+      "id": "bench-001",
+      "name": "Dream Bench Alpha",
+      "pointCloudPath": "/models/bench-001.ply",
+      "meshPath": "/models/bench-001-mesh.ply",
+      "thumbnailPath": "/thumbnails/bench-001.png",
+      "dreamExcerpt": "I was floating above a field of wheat, and the golden stalks wove themselves into a seat that held me steady against the wind...",
+      "symbol": "bear",
+      "symbolColor": "#8B4513",
+      "pointCount": 4096,
+      "parameters": {
+        "guidance_scale": 3.0,
+        "s_churn": 0.5,
+        "karras_steps": 64
+      }
+    },
+    {
+      "id": "couch-001",
+      "name": "Floating Couch",
+      "pointCloudPath": "/models/couch-001.ply",
+      "meshPath": "/models/couch-001-mesh.ply",
+      "thumbnailPath": "/thumbnails/couch-001.png",
+      "dreamExcerpt": "The purple clouds descended and formed a resting place, soft as memories, curved like the horizon at dusk...",
+      "symbol": "eagle",
+      "symbolColor": "#4B0082",
+      "pointCount": 4096,
+      "parameters": {
+        "guidance_scale": 2.5,
+        "s_churn": 0.7,
+        "karras_steps": 48
+      }
+    },
+    {
+      "id": "abstract-001",
+      "name": "Spiral Dreamform",
+      "pointCloudPath": "/models/abstract-001.ply",
+      "thumbnailPath": "/thumbnails/abstract-001.png",
+      "dreamExcerpt": "Colors spiraled upward like prayers made visible, each point a moment suspended between sleeping and waking...",
+      "symbol": "turtle",
+      "symbolColor": "#228B22",
+      "pointCount": 1024,
+      "parameters": {
+        "guidance_scale": 4.0,
+        "s_churn": 0.3,
+        "karras_steps": 96
+      }
+    }
+  ]
+}
